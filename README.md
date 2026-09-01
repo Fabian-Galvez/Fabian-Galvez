@@ -2,12 +2,13 @@
   <img src="./assets/Fabian-Galvez-README.svg" alt="Hi, I'm Fabian" />
 </p>
 
+<br>
+
 > I build tools that help improve workflows,
 > and I keep the computers, networks and servers those tools run on working.
 
 <br>
 
----
 
 <br>
 
@@ -15,7 +16,7 @@
 
 Python application with a tkinter GUI, built to improve a QA team's workflow for consolidating CNC machined part measurements from specific columns in the workbooks they received.
 
-<sub>The version in this repo is much more versatile and works on any column.</sub>
+
 
 | App repo                                     | Description                                                                                            | Runs on               | Source                                                                      |
 | -------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------- |
@@ -27,11 +28,15 @@ Python application with a tkinter GUI, built to improve a QA team's workflow for
 
 <br>
 
+<sub>The version in this repo is much more versatile and works on any column.</sub>
+
+<br>
+
 ---
 
 <br>
 
-## Live workflow tools
+## Live tools
 
 
 Single-file apps that run in the browser as GitHub Pages. No install and no login required.
