@@ -10,29 +10,6 @@
 <br>
 
 
-<br>
-
-## In production
-
-Python application with a tkinter GUI, built to improve a QA team's workflow for consolidating CNC machined part measurements from specific columns in the workbooks they received.
-
-
-
-| App repo                                     | Description                                                                                            | Runs on               | Source                                                                      |
-| -------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------- |
-| [xGator](https://github.com/Fabian-Galvez/xGator) | Pulls the columns you choose out of Excel workbooks (.xlsx) and gathers them into one master workbook. | Windows, Linux, macOS | [aggregator.py](https://github.com/Fabian-Galvez/xGator/blob/main/aggregator.py) |
-
-| Tickets                                                               | Workflow                                              |
-| --------------------------------------------------------------------- | ----------------------------------------------------- |
-| Runs daily in production with zero support tickets raised against it. | Work that took the QA team hours now takes 5 minutes. |
-
-<br>
-
-<sub>The version in this repo is much more versatile and works on any column.</sub>
-
-<br>
-
----
 
 <br>
 
@@ -105,6 +82,30 @@ The current lab, built, broken, fixed, and documented.
 | [Hypervisor host](https://github.com/Fabian-Galvez/homelab-docs/blob/main/docs/hypervisor-host.md)                       | Bare-metal hypervisor on a BIOS-only 2011 desktop. Storage layout, containers against VMs, node upgrades.                                                                |
 | [Media server](https://github.com/Fabian-Galvez/homelab-docs/blob/main/docs/media-server.md)                             | Jellyfin in a Debian LXC with a bind-mounted 1 TB drive, shared to Windows over Samba.                                                                                   |
 | [Troubleshooting](https://github.com/Fabian-Galvez/homelab-docs/blob/main/docs/troubleshooting.md)                       | Hardware and software issues I ran into and resolved using the CompTIA A+ six-step troubleshooting method.                                                               |
+
+<br>
+
+---
+
+<br>
+
+## In production
+
+Python application with a tkinter GUI, built to improve a QA team's workflow for consolidating CNC machined part measurements from specific columns in the workbooks they received.
+
+
+
+| App repo                                     | Description                                                                                            | Runs on               | Source                                                                      |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------- | --------------------------------------------------------------------------- |
+| [xGator](https://github.com/Fabian-Galvez/xGator) | Pulls the columns you choose out of Excel workbooks (.xlsx) and gathers them into one master workbook. | Windows, Linux, macOS | [aggregator.py](https://github.com/Fabian-Galvez/xGator/blob/main/aggregator.py) |
+
+| Tickets                                                               | Workflow                                              |
+| --------------------------------------------------------------------- | ----------------------------------------------------- |
+| Runs daily in production with zero support tickets raised against it. | Work that took the QA team hours now takes 5 minutes. |
+
+<br>
+
+<sub>The version in this repo is much more versatile and works on any column.</sub>
 
 <br>
 
