@@ -105,7 +105,9 @@ Xanini allows you to make unique custom .svg files and animations that are yours
 
 The first Python app that I made to solve a real workflow issue. 
 
-Basic Python tkinter application built to improve a QA team's workflow for consolidating CNC machined part measurements from specific columns in the workbooks they received. Delivered September 2025. Runs daily in production with zero support tickets raised against it.
+Basic Python tkinter application built to improve an Aerospace part manufacturer's QA team's workflow for consolidating CNC machined part measurements from specific columns in the workbooks they received. A task that took the team hours now takes them 5 minutes to complete. 
+<br>
+Delivered September 2025. Runs daily in production with zero support tickets raised against it.
 
 <br>
 
