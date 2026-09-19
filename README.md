@@ -12,19 +12,6 @@
 
 <br>
 
-## Table of Contents
-
-
-- [DensePack](#densepack)
-- [Xanini](#xanini)
-- [DataPeel](#datapeel)
-- [VtG](#vtg)
-- [In production](#in-production)
-- [Certifications](#certifications)
-
-
-<br>
-
 ---
 
 <br>
