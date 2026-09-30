@@ -42,7 +42,7 @@ Xanini makes custom .svg banners, icons and animations that are yours to keep. Y
 > [!NOTE]
 > <strong>This is a personal project. It is still in development and far from perfect or finished.</strong> <br>
 >
-> <strong>It works</strong>, and it made every .svg file and animation in these repositories, including the banner at the top of this README.
+> That being said, <strong>it works</strong>, and it made every .svg file and animation in these repositories, including the banner at the top of this README.
 
 <sub>Download the index.html to run locally and offline.</sub>
 
