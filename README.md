@@ -33,7 +33,7 @@ The plugin saves on whole Claude Code sessions, not only on input tokens. In Ant
 
 ## Xanini
 
-Xanini makes custom .svg banners, icons and animations that are yours to keep. You upload them to your own repository, and they keep rendering because they do not depend on an outside server.
+Xanini makes custom .svg banners, icons and animations that are yours to keep. Most .svg banners on GitHub link to a file on someone else's server, and they stop rendering when that server goes down. Xanini files sit in your own repository, so your banner keeps working when a visitor stops by your GitHub.
 
 | Repository                                        | Run                                                   | Description                                                                                                                                            | Source                                                                     |
 | ------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
@@ -76,9 +76,9 @@ Xanini makes custom .svg banners, icons and animations that are yours to keep. Y
 
 <br>
 
-## xGator
+## In production
 
-xGator is the first Python app I built to fix a real workflow problem. An aerospace parts manufacturer's QA team uses it to combine CNC part measurements from many Excel workbooks into one. A task that took the team hours now takes 5 minutes.
+xGator is the first Python app I built to fix a real workflow problem. An aerospace parts manufacturer's QA team uses it to combine CNC part measurements from specific columns of many Excel workbooks into one. A task that took the team hours now takes 5 minutes.
 
 It has run daily in production since September 2025 with zero support tickets.
 
