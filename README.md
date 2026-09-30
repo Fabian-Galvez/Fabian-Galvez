@@ -39,7 +39,7 @@ Xanini makes custom .svg banners, icons and animations that are yours to keep. Y
 | ------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
 | [Xanini](https://github.com/Fabian-Galvez/Xanini) | [Try it](https://fabian-galvez.github.io/Xanini/)<br> | SVG studio that makes .svg icons, banners and animations that render on GitHub, all from your browser. <br><br>The files you create are yours to keep. | [index.html](https://github.com/Fabian-Galvez/Xanini/blob/main/index.html) |
 
-> [!WARNING]
+> [!NOTE]
 > <strong>This is a personal project. It is still in development and far from perfect or finished.</strong> <br>
 >
 > <strong>It works</strong>, and it made every .svg file and animation in these repositories, including the banner at the top of this README.
