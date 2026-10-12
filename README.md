@@ -9,26 +9,21 @@
 
 <br>
 
-
-<br>
-
 ---
 
 <br>
 
-
-
 ## DensePack
 
-DensePack packs images of text that cost on average ~50% less compared to the raw text. 
+DensePack turns text into images that cost 49% to 55% fewer input tokens than the text.
 
-The plugin was built to save across entire Claude Code sessions with Fable 5.1 and Opus 5 as the lead. Not just input tokens. 
+DensePack 2.0 saved an average of 48% to 54% on 4 benchmarks that read code files. With an Opus 5.5 main agent and a Sonnet 5.5 subagent, it cut 55.0% to 70.8%.
 
 | Repository                                                                                                       | Run                                                                                                                                                                                 | Description                                                                                                                                                                                                              | Source                                                                                     |
 | ---------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ |
-| [DensePack plugin](https://github.com/Fabian-Galvez/DensePack)                                                   | Plugin for Claude Code<br><br><br>Run:<br>`/plugin marketplace add Fabian-Galvez/DensePack`<br><br>Then:<br>`/plugin install densepack@densepack-marketplace`                       | Plugin that automatically packs the files your agent reads, long command output, the briefs it sends out and the reports subagents send back into DensePack images. Fable 5.1 and Opus 5 agents read them at about half the tokens of the text.                                   | [hooks.json](https://github.com/Fabian-Galvez/DensePack/blob/main/plugin/hooks/hooks.json) |
-| [DensePack right-click tool](https://github.com/Fabian-Galvez/DensePack/tree/main/tools)<br><br>Windows, Linux and macOS<br> | Install required                                                                                                                                                                    | Right-click tool packs highlighted text and selected files into DensePack images via a right-click context menu and keyboard shortcuts.                                                                                  | [densepack.py](https://github.com/Fabian-Galvez/DensePack/blob/main/tools/densepack.py)    |
-| [DensePack HTML app](https://github.com/Fabian-Galvez/DensePack)<br>                                             | [Try it](https://fabian-galvez.github.io/DensePack/)<br>                                                                                                                            | Turns pasted text into the smallest image an AI model can still read. <br><br>Sending a condensed image of text instead of the raw text uses about 50% fewer input tokens. | [index.html](https://github.com/Fabian-Galvez/DensePack/blob/main/index.html)              |
+| [DensePack plugin](https://github.com/Fabian-Galvez/DensePack)                                                   | Run these two commands in Claude Code.<br><br>`/plugin marketplace add Fabian-Galvez/DensePack`<br><br>`/plugin install densepack@densepack-marketplace`                       | Packs the files your agent reads, Bash output, Word files, the briefs it sends and the reports subagents send back into DensePack images. Fable, Opus and Sonnet agents read them at about half the tokens of the text. DensePack 2.0 also adds rules that make the agent write less and a map of your project.                                   | [hooks.json](https://github.com/Fabian-Galvez/DensePack/blob/main/plugin/hooks/hooks.json) |
+| [DensePack right-click tool](https://github.com/Fabian-Galvez/DensePack/tree/main/tools)<br><br>Windows, Linux and macOS<br> | Needs an install                                                                                                                                                                    | Packs selected files into DensePack images from the right-click menu. On Windows, it also packs selected text with keyboard shortcuts.                                                                                  | [densepack.py](https://github.com/Fabian-Galvez/DensePack/blob/main/tools/densepack.py)    |
+| [DensePack HTML app](https://github.com/Fabian-Galvez/DensePack)<br>                                             | [Try it](https://fabian-galvez.github.io/DensePack/)<br>                                                                                                                            | Turns pasted text into the smallest image an AI model can still read. | [index.html](https://github.com/Fabian-Galvez/DensePack/blob/main/index.html)              |
 
 <br>
 
@@ -38,23 +33,13 @@ The plugin was built to save across entire Claude Code sessions with Fable 5.1 a
 
 ## Xanini
 
-Most customizable .svg files for GitHub are linked dependencies which means that if the server they live on goes down, your .svg files stop rendering. 
-
-Xanini allows you to make unique custom .svg files and animations that are yours to keep. Upload them to GitHub and they sit in your repository so you never have to worry about your .svg banner failing when a visitor stops by your GitHub.  
+Xanini makes custom .svg banners, icons and animations that are yours to keep. Most .svg banners on GitHub link to a file on someone else's server, and they stop rendering when that server goes down. Xanini files sit in your own repository, so your banner keeps working when a visitor stops by your GitHub.
 
 | Repository                                        | Run                                                   | Description                                                                                                                                            | Source                                                                     |
 | ------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
 | [Xanini](https://github.com/Fabian-Galvez/Xanini) | [Try it](https://fabian-galvez.github.io/Xanini/)<br> | SVG studio that makes .svg icons, banners and animations that render on GitHub, all from your browser. <br><br>The files you create are yours to keep. | [index.html](https://github.com/Fabian-Galvez/Xanini/blob/main/index.html) |
 
-> [!WARNING]
-> <strong>This is a personal project. It is still in development and far from perfect or finished.</strong> <br>
-> 
-> That being said, <strong>it works</strong> and has produced every .svg file/animation that you see rendered throughout the live repositories, including the banner at the top of this README.
-
-
-
 <sub>Download the index.html to run locally and offline.</sub>
-
 
 <br>
 
@@ -64,10 +49,9 @@ Xanini allows you to make unique custom .svg files and animations that are yours
 
 ## DataPeel
 
-
 | Repository                                            | Description                                                                                                                                        | No install               | Source                                                                                       |
 | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------- |
-| [DataPeel](https://github.com/Fabian-Galvez/DataPeel) | Wipes the metadata of every image in its folder with one click, and shows the data that can identify you in each image, before and after the wipe. | Windows EXE file<br>Linux and macOS run from source | [metadata_wipe.py](https://github.com/Fabian-Galvez/DataPeel/blob/main/src/metadata_wipe.py) |
+| [DataPeel](https://github.com/Fabian-Galvez/DataPeel) | Shows the hidden data in every picture in its folder, marks in red the parts that can identify you, and wipes all of it in one click. | Windows EXE file<br>Linux and macOS run from source | [metadata_wipe.py](https://github.com/Fabian-Galvez/DataPeel/blob/main/src/metadata_wipe.py) |
 
 <br>
 
@@ -77,10 +61,9 @@ Xanini allows you to make unique custom .svg files and animations that are yours
 
 ## VtG
 
-
 | Repository                                  | Description                                                                                                                                                                                 | No install                   | Source                                                                            |
 | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------- |
-| [VtG](https://github.com/Fabian-Galvez/VtG) | Turns every screen recording in its folder into a gif. One tab per video, sliders for frames, quality and width, a live size estimate.<br>(The demo gifs in these repos were made with VtG) | Windows EXE file<br>Linux and macOS run from source | [vid_to_gif.py](https://github.com/Fabian-Galvez/VtG/blob/main/src/vid_to_gif.py) |
+| [VtG](https://github.com/Fabian-Galvez/VtG) | Turns every screen recording in its folder into a gif. Each video gets its own tab with sliders for frames, quality and width, and a live estimate of the file size.<br>VtG made the demo gifs in these repos. | Windows EXE file<br>Linux and macOS run from source | [vid_to_gif.py](https://github.com/Fabian-Galvez/VtG/blob/main/src/vid_to_gif.py) |
 
 <br>
 
@@ -90,19 +73,14 @@ Xanini allows you to make unique custom .svg files and animations that are yours
 
 ## In production
 
-The first Python app that I made to solve a real workflow issue. 
+xGator is the first Python app I built to fix a real workflow problem. An aerospace parts manufacturer's QA team uses it to combine CNC part measurements from specific columns of many Excel workbooks into one. A task that took the team hours now takes 5 minutes.
 
-Basic Python tkinter application built to improve an Aerospace part manufacturer's QA team's workflow for consolidating CNC machined part measurements from specific columns in the workbooks they received. A task that took the team hours now takes them 5 minutes to complete. 
-<br>
-Delivered September 2025. Runs daily in production with zero support tickets raised against it.
+It has run daily in production since September 2025 with zero support tickets.
 
-<br>
-
-| App repo                                          | Description                                                                                            | Source                                                                           |
+| Repository                                          | Description                                                                                            | Source                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
 | [xGator](https://github.com/Fabian-Galvez/xGator) | Pulls the columns you choose out of Excel workbooks (.xlsx) and gathers them into one master workbook. | [aggregator.py](https://github.com/Fabian-Galvez/xGator/blob/main/aggregator.py) |
 
-<br>
 <sub>The version in this repo is much more versatile and works on any column.</sub>
 
 <br>
@@ -122,4 +100,6 @@ Delivered September 2025. Runs daily in production with zero support tickets rai
 
 ---
 
-<sub>[LinkedIn](https://www.linkedin.com/in/fabian-gz/)</sub>
+<br>
+
+<sub>[LinkedIn](https://www.linkedin.com/in/fabian-galvez)</sub>
